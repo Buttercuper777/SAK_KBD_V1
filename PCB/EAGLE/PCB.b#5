@@ -1305,45 +1305,45 @@ design rules under a new name.</description>
 <attribute name="NAME" x="233.3625" y="30.5375" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="233.3625" y="30.5375" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="LCTRL" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="304.8" y="-361.95" smashed="yes">
-<attribute name="NAME" x="304.8" y="-364.75" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="304.8" y="-364.75" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="LCTRL" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="21.43125" y="14.2875" smashed="yes">
+<attribute name="NAME" x="21.43125" y="11.4875" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="21.43125" y="11.4875" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="WIN" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="304.8" y="-381" smashed="yes">
-<attribute name="NAME" x="304.8" y="-383.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="304.8" y="-383.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="WIN" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="45.24375" y="14.2875" smashed="yes">
+<attribute name="NAME" x="45.24375" y="11.4875" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="45.24375" y="11.4875" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="LALT" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="304.8" y="-400.05" smashed="yes">
-<attribute name="NAME" x="304.8" y="-402.85" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="304.8" y="-402.85" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="LALT" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="69.05625" y="14.2875" smashed="yes">
+<attribute name="NAME" x="69.05625" y="11.4875" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="69.05625" y="11.4875" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RALT" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="304.8" y="-438.15" smashed="yes">
-<attribute name="NAME" x="304.8" y="-440.95" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="304.8" y="-440.95" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="RALT" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="211.93125" y="14.2875" smashed="yes">
+<attribute name="NAME" x="211.93125" y="11.4875" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="211.93125" y="11.4875" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RCTRL" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="304.8" y="-457.2" smashed="yes">
-<attribute name="NAME" x="304.8" y="-460" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="304.8" y="-460" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="RCTRL" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="235.74375" y="14.2875" smashed="yes">
+<attribute name="NAME" x="235.74375" y="11.4875" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="235.74375" y="11.4875" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="FN" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="304.8" y="-476.25" smashed="yes">
-<attribute name="NAME" x="304.8" y="-479.05" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="304.8" y="-479.05" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="FN" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="257.175" y="14.2875" smashed="yes">
+<attribute name="NAME" x="257.175" y="11.4875" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="257.175" y="11.4875" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="LEFT" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="304.8" y="-495.3" smashed="yes">
-<attribute name="NAME" x="304.8" y="-498.1" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="304.8" y="-498.1" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="LEFT" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="280.9875" y="9.525" smashed="yes">
+<attribute name="NAME" x="280.9875" y="6.725" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="280.9875" y="6.725" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="DOWN" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="304.8" y="-514.35" smashed="yes">
-<attribute name="NAME" x="304.8" y="-517.15" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="304.8" y="-517.15" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="DOWN" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="300.0375" y="9.525" smashed="yes">
+<attribute name="NAME" x="300.0375" y="6.725" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="300.0375" y="6.725" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RIGHT" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="304.8" y="-533.4" smashed="yes">
-<attribute name="NAME" x="304.8" y="-536.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="304.8" y="-536.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="RIGHT" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="319.0875" y="9.525" smashed="yes">
+<attribute name="NAME" x="319.0875" y="6.725" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="319.0875" y="6.725" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="UP" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="304.8" y="-552.45" smashed="yes">
-<attribute name="NAME" x="304.8" y="-555.25" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="304.8" y="-555.25" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="UP" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="300.0375" y="28.575" smashed="yes">
+<attribute name="NAME" x="300.0375" y="25.775" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="300.0375" y="25.775" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="BACKSPACE" library="Keyboard" package="MXHSPCB-2U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-2U-SMDLED" x="276.225" y="90.4875" smashed="yes">
 <attribute name="NAME" x="276.225" y="87.6875" size="1" layer="21" font="vector" ratio="13" align="center"/>

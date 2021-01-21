@@ -882,6 +882,40 @@ EC12E series with push-on switch</description>
 </package3d>
 </packages3d>
 </library>
+<library name="Components">
+<description>Standard Components used in nearly every electrical design</description>
+<packages>
+<package name="SOD-123">
+<description>SOD-123 footprint</description>
+<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="0.381" y1="0" x2="-0.381" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.508" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.381" x2="-0.381" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="0.635" x2="0.381" y2="0" width="0.127" layer="21"/>
+<wire x1="0.381" y1="0" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.508" x2="-0.254" y2="0.508" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.508" x2="0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="0.254" y1="0" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.381" x2="-0.254" y2="0.381" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.381" x2="0.127" y2="0" width="0.127" layer="21"/>
+<wire x1="0.127" y1="0" x2="-0.254" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.254" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.254" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.254" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0.127" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0.127" x2="-0.127" y2="0" width="0.127" layer="21"/>
+<smd name="C" x="1.635" y="0" dx="0.91" dy="1.22" layer="1"/>
+<smd name="A" x="-1.635" y="0" dx="0.91" dy="1.22" layer="1"/>
+<text x="0" y="1" size="1" layer="21" font="vector" ratio="13" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1" size="1" layer="21" font="vector" ratio="13" align="top-center">&gt;VALUE</text>
+<text x="2.5" y="0" size="0.75" layer="21" align="center-left">K</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1399,14 +1433,18 @@ design rules under a new name.</description>
 <attribute name="NAME" x="140.49375" y="11.4875" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="140.49375" y="11.4875" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="SW1" library="switch-alps" library_urn="urn:adsk.eagle:library:373" package="ALPS_EC12E_SW" package3d_urn="urn:adsk.eagle:package:27083/1" value="EC12E_SW" x="-19.05" y="19.05" smashed="yes">
-<attribute name="MF" value="" x="-19.05" y="19.05" size="1.778" layer="27" font="vector" display="off"/>
-<attribute name="MPN" value="EC12E2424407" x="-19.05" y="19.05" size="1.778" layer="27" font="vector" display="off"/>
-<attribute name="NAME" x="-21.55" y="27.55" size="1.27" layer="25"/>
-<attribute name="OC_FARNELL" value="1520813" x="-19.05" y="19.05" size="1.778" layer="27" font="vector" display="off"/>
-<attribute name="OC_NEWARK" value="74M1068" x="-19.05" y="19.05" size="1.778" layer="27" font="vector" display="off"/>
-<attribute name="POPULARITY" value="3" x="-19.05" y="19.05" size="1.778" layer="27" font="vector" display="off"/>
-<attribute name="VALUE" x="-15.55" y="10.05" size="1.27" layer="27" rot="R180"/>
+<element name="SW1" library="switch-alps" library_urn="urn:adsk.eagle:library:373" package="ALPS_EC12E_SW" package3d_urn="urn:adsk.eagle:package:27083/1" value="EC12E_SW" x="309.5625" y="114.3" smashed="yes">
+<attribute name="MF" value="" x="309.5625" y="114.3" size="1.778" layer="27" font="vector" display="off"/>
+<attribute name="MPN" value="EC12E2424407" x="309.5625" y="114.3" size="1.778" layer="27" font="vector" display="off"/>
+<attribute name="NAME" x="307.0625" y="122.8" size="1.27" layer="25"/>
+<attribute name="OC_FARNELL" value="1520813" x="309.5625" y="114.3" size="1.778" layer="27" font="vector" display="off"/>
+<attribute name="OC_NEWARK" value="74M1068" x="309.5625" y="114.3" size="1.778" layer="27" font="vector" display="off"/>
+<attribute name="POPULARITY" value="3" x="309.5625" y="114.3" size="1.778" layer="27" font="vector" display="off"/>
+<attribute name="VALUE" x="313.0625" y="105.3" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="D1" library="Components" package="SOD-123" value="" x="19.05" y="-19.05" smashed="yes">
+<attribute name="NAME" x="19.05" y="-18.05" size="1" layer="21" font="vector" ratio="13" align="bottom-center"/>
+<attribute name="VALUE" x="19.05" y="-20.05" size="1" layer="21" font="vector" ratio="13" align="top-center"/>
 </element>
 </elements>
 <signals>

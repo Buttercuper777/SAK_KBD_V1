@@ -1305,17 +1305,17 @@ design rules under a new name.</description>
 <attribute name="NAME" x="233.3625" y="30.5375" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="233.3625" y="30.5375" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="LCTRL" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="304.8" y="-361.95" smashed="yes">
-<attribute name="NAME" x="304.8" y="-364.75" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="304.8" y="-364.75" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="LCTRL" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="21.43125" y="14.2875" smashed="yes">
+<attribute name="NAME" x="21.43125" y="11.4875" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="21.43125" y="11.4875" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="WIN" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="304.8" y="-381" smashed="yes">
-<attribute name="NAME" x="304.8" y="-383.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="304.8" y="-383.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="WIN" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="45.24375" y="14.2875" smashed="yes">
+<attribute name="NAME" x="45.24375" y="11.4875" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="45.24375" y="11.4875" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="LALT" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="304.8" y="-400.05" smashed="yes">
-<attribute name="NAME" x="304.8" y="-402.85" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="304.8" y="-402.85" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="LALT" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="69.05625" y="14.2875" smashed="yes">
+<attribute name="NAME" x="69.05625" y="11.4875" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="69.05625" y="11.4875" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="RALT" library="Keyboard" package="MXHSPCB-1U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-1U-SMDLED" x="304.8" y="-438.15" smashed="yes">
 <attribute name="NAME" x="304.8" y="-440.95" size="1" layer="21" font="vector" ratio="13" align="center"/>
@@ -1353,9 +1353,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="273.84375" y="49.5875" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="273.84375" y="49.5875" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="RSHIFT" library="Keyboard" package="MXHSPCB-2U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-2U-SMDLED" x="304.8" y="-609.6" smashed="yes">
-<attribute name="NAME" x="304.8" y="-612.4" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="304.8" y="-612.4" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="RSHIFT" library="Keyboard" package="MXHSPCB-2U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-2U-SMDLED" x="264.31875" y="33.3375" smashed="yes">
+<attribute name="NAME" x="264.31875" y="30.5375" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="264.31875" y="30.5375" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 <element name="LSHIFT" library="Keyboard" package="MXHSPCB-2U-SMDLED" value="KEYSWITCH-SMDLED-MXHSPCB-2U-SMDLED" x="30.95625" y="33.3375" smashed="yes">
 <attribute name="NAME" x="30.95625" y="30.5375" size="1" layer="21" font="vector" ratio="13" align="center"/>

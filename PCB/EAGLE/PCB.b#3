@@ -848,6 +848,40 @@
 </package>
 </packages>
 </library>
+<library name="switch-alps" urn="urn:adsk.eagle:library:373">
+<description>ALPS Switch from Markus Faust &amp;lt;mfaust@htwm.de&amp;gt;&lt;p&gt;
+Source: EC12E.scr from eagle.support.ger on news.cadsoft.de at 08.10.2007</description>
+<packages>
+<package name="ALPS_EC12E_SW" urn="urn:adsk.eagle:footprint:27082/1" library_version="2">
+<description>ALPS rotary encoder&lt;br&gt;
+EC12E series with push-on switch</description>
+<wire x1="-6.2" y1="-6.6" x2="6.2" y2="-6.6" width="0.127" layer="21"/>
+<wire x1="6.2" y1="-6.6" x2="6.2" y2="6.6" width="0.127" layer="21"/>
+<wire x1="6.2" y1="6.6" x2="-6.2" y2="6.6" width="0.127" layer="21"/>
+<wire x1="-6.2" y1="6.6" x2="-6.2" y2="-6.6" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="1.5" x2="2.6" y2="1.5" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="21"/>
+<pad name="A" x="-2.5" y="-7.5" drill="1" shape="square"/>
+<pad name="C" x="0" y="-7.5" drill="1" shape="square"/>
+<pad name="B" x="2.5" y="-7.5" drill="1" shape="square"/>
+<pad name="D" x="-2.5" y="7" drill="1" shape="square"/>
+<pad name="E" x="2.5" y="7" drill="1" shape="square"/>
+<pad name="GND1" x="-6.1" y="0" drill="2.2" shape="square"/>
+<pad name="GND2" x="6.1" y="0" drill="2.2" shape="square"/>
+<text x="-2.5" y="8.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="3.5" y="-9" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="ALPS_EC12E_SW" urn="urn:adsk.eagle:package:27083/1" type="box" library_version="2">
+<description>ALPS rotary encoder
+EC12E series with push-on switch</description>
+<packageinstances>
+<packageinstance name="ALPS_EC12E_SW"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1365,6 +1399,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="140.49375" y="11.4875" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="140.49375" y="11.4875" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
+<element name="SW1" library="switch-alps" library_urn="urn:adsk.eagle:library:373" package="ALPS_EC12E_SW" package3d_urn="urn:adsk.eagle:package:27083/1" value="EC12E_SW" x="309.5625" y="114.3" smashed="yes">
+<attribute name="MF" value="" x="309.5625" y="114.3" size="1.778" layer="27" font="vector" display="off"/>
+<attribute name="MPN" value="EC12E2424407" x="309.5625" y="114.3" size="1.778" layer="27" font="vector" display="off"/>
+<attribute name="NAME" x="307.0625" y="122.8" size="1.27" layer="25"/>
+<attribute name="OC_FARNELL" value="1520813" x="309.5625" y="114.3" size="1.778" layer="27" font="vector" display="off"/>
+<attribute name="OC_NEWARK" value="74M1068" x="309.5625" y="114.3" size="1.778" layer="27" font="vector" display="off"/>
+<attribute name="POPULARITY" value="3" x="309.5625" y="114.3" size="1.778" layer="27" font="vector" display="off"/>
+<attribute name="VALUE" x="313.0625" y="105.3" size="1.27" layer="27" rot="R180"/>
+</element>
 </elements>
 <signals>
 </signals>
@@ -1378,6 +1421,21 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
 <note version="9.5" severity="warning">
 Since Version 9.5, EAGLE supports persistent groups with
 schematics, and board files. Those persistent groups
